@@ -1,1 +1,1 @@
-def process_payment(amount): return f'Processed payment of {amount}'
+def process_payment(amount, gateway='stripe'): return f'{gateway.upper()}: {amount}'
